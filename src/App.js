@@ -5,12 +5,17 @@ import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 
+const HatsPage = () => (
+  <div>This is the Hat Page</div>
+);
+
 class App extends Component {
   render() {
     return (
       <div>
         <Switch>
           <Route exact path='/' component={HomePage}/>
+          <Route path='/hats' component={HatsPage}/>
         </Switch>
       </div>
     );
