@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class Logo extends Component {
   render() {
     return (
-      <svg height="150pt" preserveAspectRatio="xMidYMid meet" viewBox="0 0 359 465" width="100pt" xmlns="http://www.w3.org/2000/svg">
+      <svg height="100pt" preserveAspectRatio="xMidYMid meet" viewBox="0 0 359 465" width="100pt" xmlns="http://www.w3.org/2000/svg">
         <g transform="matrix(.1 0 0 -.1 0 465)">
           <path d="m2182 4433-43-4 23-19c22-18 23-25 26-196 4-207 0-242-31-254-15-6 2-9 58-9 44 1 73 3 65 6-37 13-40 32-40 260 0 123-3 222-7 221-5-1-27-3-51-5z"/>
           <path d="m460 4377 25-13v-194-194l-25-13c-21-11 0-13 140-13h165l-4 67c-3 68-7 68-27-2-5-16-21-35-34-42-32-16-122-17-138-1-8 8-12 46-12 105v93h28c38 0 59-18 69-60 14-53 19-24 13 70-5 71-7 80-14 52-9-36-31-52-70-52-26 0-26 0-26 89 0 109 5 115 91 109 68-5 89-21 89-70 0-15 5-28 10-28 6 0 10 25 10 55v55h-157c-134 0-154-2-133-13z"/>
