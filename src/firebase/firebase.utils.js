@@ -3,14 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyBkQOAX-8B5b_JgLB6j8aUKWJtP7rarDMc",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "egg-plant-aff33.firebaseapp.com",
   databaseURL: "https://egg-plant-aff33.firebaseio.com",
   projectId: "egg-plant-aff33",
   storageBucket: "egg-plant-aff33.appspot.com",
-  messagingSenderId: "678753341494",
-  appId: "1:678753341494:web:3cdb7891aec5d48a1e4897",
-  measurementId: "G-N8M9DMEBGR"
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGE_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 firebase.initializeApp(config);
