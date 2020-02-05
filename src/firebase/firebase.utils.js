@@ -13,6 +13,10 @@ const config = {
   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
+export const createUserProfileDocument = async (userAuth, additionalData) => {
+  if (!userAuth) return;
+}
+
 firebase.initializeApp(config);
 
 export const auth = firebase.auth();
